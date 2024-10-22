@@ -9,7 +9,7 @@ html {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 800px; /* Updated width */
+    width: 800px; 
     margin: 0 auto;
     border: 3px solid #931420;
     background-color: #fffded;
@@ -41,16 +41,11 @@ header img {
     text-shadow: 2px 2px 2px #800000;
 }
 
-/* the styles for the main content */
-main {
-    /* Removed clear and padding */
-}
-
 /* the styles for the section */
 section {
-    width: 525px;
+    width: 525px; 
     float: right;
-    padding: 0 20px 20px 20px; /* Updated padding */
+    padding: 0 20px 20px 20px; 
 }
 section h2 {
     color: #800000;
@@ -60,9 +55,9 @@ section h2 {
 
 /* the styles for the aside */
 aside {
-    width: 215px;
-    float: right;
-    padding: 0 0 20px 20px; /* Updated padding */
+    width: 215px; 
+    float: right; 
+    padding: 0 0 20px 20px; 
 }
 aside h2 {
     color: #800000;
@@ -91,15 +86,15 @@ article h3 {
     padding-bottom: .25em;
 }
 article img {
-    float: right; /* Image float */
-    margin: 10px 0 10px 10px; /* Image margins */
-    border: 1px solid black; /* Image border */
+    float: right; 
+    margin: 10px 0 10px 10px; 
+    border: 1px solid black; 
 }
 
 /* the styles for the footer */
 footer {
     background-color: #931420;
-    clear: both; /* Clearing floats */
+    clear: both; 
 }
 footer p {
     text-align: center;
@@ -107,7 +102,7 @@ footer p {
     padding: 1em 0;
 }
 
-/* New style for the h1 element */
+/* the styles for the h1 element */
 h1 {
     font-size: 150%;
     padding: .5em 0 .25em 0;
